@@ -1,0 +1,590 @@
+
+.service{
+  color: #fff;
+
+}
+.service-img{
+  filter: grayscale(100%);
+  transition-property: filter;
+  transition-duration: 1s;
+}
+.service-img:hover{
+  filter: grayscale(30%);
+}
+/* --- SERVICE ------------------------------ */
+.service-present{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.service-present-background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  filter: grayscale(00%);
+  transition-duration: .8s;
+  transition-property: filter;
+}
+.service-present-cont{
+  z-index: 10;
+  position: relative;
+  text-align: left;
+}
+/* fontSize Text Title Presentation */ 
+.service-present-cont h1{
+  font-size: 4rem;
+}
+.service-present:hover .service-present-background{
+  filter: grayscale(0%);
+
+}
+.service-present-cont h3{
+  font-size: .8rem;
+  margin-top: -18px;
+}
+.service-present-cont span{
+  font-size: .8rem;
+  color: #8c8c8c;
+}
+/* FontSeze Text */
+@media screen and (min-width:350px) {
+  /* fontSize Text Title Presentation */ 
+  .service-present-cont h1{
+    font-size: 5.4rem;
+  }
+  .service-present-cont h3{
+    font-size: 1rem;
+  }
+  .service-present-cont span{
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width:620px) {
+  /* fontSize Text Title Presentation */ 
+  .service-present-cont h1{
+    font-size: 9rem;
+  }
+  .service-present-cont h3{
+    font-size: 1.2rem;
+    margin-top: -28px;
+  }
+  .service-present-cont span{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width:920px) {
+  /* fontSize Text Title Presentation */ 
+  .service-present-cont h1{
+    font-size: 14rem;
+  }
+  .service-present-cont h3{
+    font-size: 1.4rem;
+    margin-top: -48px;
+  }
+  .service-present-cont span{
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width:1000px) {
+  /* fontSize Text Title Presentation */ 
+  .service-present-cont h1{
+    font-size: 13rem;
+  }
+  .service-present-cont h3{
+    font-size: 1.2rem;
+    margin-top: -68px;
+  }
+  .service-present-cont span{
+    font-size: 1.2rem;
+    color: #959595;
+  }
+}
+
+/* --- INTRODUCTION ------------------------------ */
+
+.service-introduction{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.service-introduction-cont{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-ideologia-header h2{
+  font-size: 4rem;
+}
+.about-introduction-text{
+  margin-top: 30px;
+}
+.about-introduction-text h3{
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+.about-introduction-text p{
+  color: #8c8c8c;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media screen and (min-width:920px) {
+  .about-ideologia-header h2{
+    font-size: 5rem;
+  }
+  .about-introduction-text h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .about-introduction-text p{
+    font-size: 1.1rem;
+
+  }
+}
+@media screen and (min-width:1000px) {
+  .service-introduction{
+    flex-direction: row;
+    height: 100vh;
+    max-height: 500px;
+  }
+}
+
+
+.section-img-ts{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.jobAdvert-section{
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobAdvert-left{
+  position: relative;
+}
+
+.section-left-text{
+  z-index: 10;
+  text-align: center;
+  max-width: 240px;
+}
+.section-left-text h3{
+  font-size: 9rem;
+}
+.section-left-text h4{
+  font-size: 2.5rem;
+}
+.section-left-text p{
+  font-size: .8rem;
+  color: #a2a1a1;
+}
+.jobAdvert-left img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+.jobAdvert-right{
+  padding: 40px 0;
+  background-color: #000203;
+}
+.section-right-text{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.jobAdvert-right-text-cont{
+  width: 100%;
+}
+
+.section-right-text-cont-title h3{
+  font-size: 2rem;
+}
+.section-right-text-cont-title p{
+  color: #a2a1a1;
+}
+
+.jobAdvert-right-text-cont-estd{
+  margin-top: 20px;
+}
+.jobAdvert-right-text-cont-estd-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #a2a1a149;
+  padding: 20px 0;
+}
+.jobAdvert-right-text-cont-estd-item h3{
+  font-size: 1.6rem;
+  width: 100%;
+}
+.jobAdvert-right-text-cont-estd-item h4{
+  font-size: 2.5rem;
+  width: 100%;
+}
+.jobAdvert-right-text-cont-estd-item h4 span{
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width:800px) {
+  .jobAdvert-section{
+    min-height: 120vh;
+  }
+}
+@media screen and (min-width:1000px) {
+  .section-right-text{
+    flex-direction: row;
+  }
+}
+@media screen and (min-width:1400px) {
+  .section-img-ts{
+    flex-direction: row;
+  }
+  .jobAdvert-section{
+    min-height: 120vh;
+  }
+  .jobAdvert-right-text-cont{
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+
+
+
+
+.consulting{
+  background-color: #000203;
+  
+}
+.consulting-right-text-cont-estd{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.consulting-right-text-cont-estd-item{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.207);
+}
+.consulting-right-text-cont-estd-item h3{
+  font-size: 1.2rem;
+  color: #a2a1a1;
+}
+.consulting-right-text-cont-estd-item h4{
+  font-size: 1.6rem;
+}
+@media screen and (min-width:1200px) { 
+  .consulting{
+    flex-direction: row-reverse;
+  } 
+}
+
+
+.creativeSupp-right-text-cont-estd{
+  display: flex;
+  flex-direction: column;
+}
+.creativeSupp-right-text-cont-estd-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 50px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.207);
+}
+
+.creativeSupp-right-text-cont-estd-item h3{
+  font-size: 1.3rem;
+}
+.creativeSupp-right-text-cont-estd-item-div h4{
+  font-size: 1.3rem;
+}
+.creativeSupp-right-text-cont-estd-item-div p{
+  color: #a2a1a1;
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+
+
+.partners{
+  padding: 40px 0;
+}
+.partners-main{
+  padding: 40px 0;
+}
+.partners-title{
+  text-align: center;
+}
+.partners-title h3{
+  font-size: 1.3rem;
+}
+.partners-title h4{
+  color: #a2a1a1;
+}
+
+.partners-cont{
+}
+.partners-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  max-width: 1000px;
+}
+.partners-grid li{
+  line-height: 200px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  border: 1.4px solid #8c8c8c4e;
+}
+
+
+
+
+.appealing-fondo{
+
+  background-color: #000203;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.appealing-desing{
+
+}
+
+.appealing-desing-title{
+  text-align: center;
+}
+.appealing-desing-title h3{
+  font-size: 1.3rem;
+}
+.appealing-desing-title h4{
+  color: #a2a1a1;
+}
+
+.appealing-desing-main{
+}
+.appealing-desing-graf{
+  margin-top: 30px;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.appealing-desing-graf-point{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  
+}
+.point{
+  border: 1.4px solid #8c8c8c;
+  background-color: #101010;
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.appealing-desing-graf-point h3{}
+.appealing-desing-graf-point p{
+  width: 80%;
+  color: #a2a1a1;
+}
+
+.appealing-desing-control{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+.appealing-desing-control p{
+  font-size: 1rem;
+}
+.appealing-desing-control-pass button{
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+  border: 1px solid #8c8c8c;
+  color: #8c8c8c;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width:1000px) { 
+  .appealing-desing-control{
+    display: none;
+  }
+  .appealing-desing-graf{
+    height: 400px;
+  }
+  .appealing-desing-graf-point{
+    position: relative;
+  }
+  .point{
+    width: 300px;
+    height: 300px;
+  }
+  .point h4{
+    font-size: 1.3rem;
+  }
+  .point p{
+    font-size: 1.1rem;
+  }
+}
+
+
+.order{
+  margin-top: 100px;
+}
+.order-table{
+  width: 100%;
+  margin-top: 20px;
+}
+.order-table-tr{
+}
+.order-table-tr th{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.order-table-tr th div{
+  background-color: #ffa451;
+  color: #000203;
+  padding: 20px;
+}
+.order-table-tr td{
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.361);
+  padding: 30px 0;
+  font-size: 1.4rem;
+  color: #8c8c8c;
+}
+.appealing-order-title{
+  text-align: center;
+}
+.appealing-order-title h3{
+  font-size: 1.1rem;
+}
+
+.service-contact{
+  background-color: #ffa451;
+  color: #000203;
+  transition-property: all;
+  transition-duration: .7s;
+  cursor: pointer;
+}
+.service-contact-main{
+  text-align: center;
+}
+.service-contact-main h3{
+  font-size: .9rem;
+}
+.service-contact-main h4{
+  font-size: 2rem;
+}
+.service-contact-main p{
+}
+
+
+.solutionMain{
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.solutionMain-title{
+  text-align: center;
+}
+.solutionMain-main{
+  margin-top: 20px;
+}
+
+.solutionMain-main-graf{
+  position: relative;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.solutionMain-main-graf-point{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  transform: translateX(100%);
+  transform: translate(100%, 0);
+}
+.solutionMain-point{
+  border: 1.4px solid #8c8c8c;
+  background-color: #101010;
+  width: 240px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.solutionMain-point-pass h5{
+  font-size: .8rem;
+  color: #a2a1a1;
+}
+.solutionMain-point-icon{
+  font-size: .8rem;
+  color: #a2a1a1;
+}
+
+@media screen and (min-width:1000px) { 
+  .solutionMain-main-graf-point{
+    position: relative;
+  }
+}
+
+
+

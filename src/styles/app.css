@@ -1,0 +1,98 @@
+.App{
+  background-color: #101010;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.sectionRoute{
+}
+
+
+
+html::-webkit-scrollbar{
+  width: 2px;
+  background: #000203;
+}
+html::-webkit-scrollbar-thumb{
+  background: #ffa451;
+}
+
+
+
+.sct-standar{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.sct-standar-name{
+  position: relative;
+  font-size: 1rem;
+  color: #8c8c8c;
+  padding:  20px 0;
+}
+.sct-standar-name h4{
+  width: 120px;
+}
+
+
+
+.goTopPage{
+  cursor: pointer;
+  position: fixed;
+  background-color: #ffa451;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 40;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goTopPage-icon{
+  font-size: 2.2rem;
+  color: #000203;
+}
+@media screen and (min-width:620px) {
+  .sct-standar{
+    padding: 40px;
+  }
+}
+@media screen and (min-width:920px) {
+  .sct-standar-name h4{
+    font-size: 1rem;
+  }
+  .goTopPage{
+    bottom: 30px;
+    right: 30px;
+    width: 76px;
+    height: 76px;
+  }
+  .goTopPage-icon{
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width:1000px) {
+  .sct-standar-name h4{
+    font-size: 1.2rem;
+  }
+  .sct-standar-name{
+    font-size: 1rem;
+    color: #8c8c8c;
+    width: 10%;
+
+  }
+  .sct-standar-name h4{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 43%;
+    left: -90px;
+  }
+  .sct-standar-name h4{
+    width: 200px;
+  }
+}

@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Red+Hat+Mono:wght@600&family=Sansita+Swashed:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+table,th,td{
+  border-collapse: collapse;
+}
+
+input{
+  border: none;
+}
+
+textarea{
+  border: none;
+}
+
