@@ -6,7 +6,7 @@ El sitio web fue desarrollado para mejorar mis habilidades de animación usando 
 El motivo de porque escogí este sitio fue por su cantidad de animaciones que tiene, además de las transiciones que realiza cada vez que navegas entre las páginas. Al final logra crear algo decente.
 
 
-Puedes verlo en [Video](https://twitter.com/EfvFlores/status/1611198616923930624?s=20&t=KBC9TAYh_Tn4FGaF3t1Hzg) (Twitter)  
+Puedes visitar el [Sitio Web](https://efrain-f.github.io/ANIMATED-WEBSITE-MODERN/) o verlo en [Video](https://twitter.com/EfvFlores/status/1611198616923930624?s=20&t=KBC9TAYh_Tn4FGaF3t1Hzg) (Twitter)  
 
 ## Tecnologias
 * React js + React Router v6
