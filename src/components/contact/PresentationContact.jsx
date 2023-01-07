@@ -42,7 +42,7 @@ function PresentationContact() {
           <h3>Lorem ipsum dolor sit amet</h3>
           <span>By Me</span>
         </section>
-        <img className="contact-present-background" src="./assets/contact.jpg"></img>
+        <img className="contact-present-background" src="/ANIMATED-WEBSITE-MODERN/imgs/contact.jpg"></img>
     </div>
   );
 }

@@ -14,11 +14,11 @@ function Footer() {
         <div className="footer-section-top">
           <div className="footer-section-top-logo"><IoLogoFirefox className="footer-section-top-logo-icon"/></div>
           <div className="footer-section-top-nav">
-            <Link className="footer-section-top-nav-link" to={"/"}>About</Link>
-            <Link className="footer-section-top-nav-link" to={"/"}>About</Link>
-            <Link className="footer-section-top-nav-link" to={"/"}>About</Link>
-            <Link className="footer-section-top-nav-link" to={"/"}>About</Link>
-            <Link className="footer-section-top-nav-link" to={"/"}>About</Link>
+            <Link className="footer-section-top-nav-link" to={"/ANIMATED-WEBSITE-MODERN/"}>About</Link>
+            <Link className="footer-section-top-nav-link" to={"/ANIMATED-WEBSITE-MODERN/"}>About</Link>
+            <Link className="footer-section-top-nav-link" to={"/ANIMATED-WEBSITE-MODERN"}>About</Link>
+            <Link className="footer-section-top-nav-link" to={"/ANIMATED-WEBSITE-MODERN/"}>About</Link>
+            <Link className="footer-section-top-nav-link" to={"/ANIMATED-WEBSITE-MODERN/"}>About</Link>
           </div>
         </div>
         <div className="footer-section-bottom">

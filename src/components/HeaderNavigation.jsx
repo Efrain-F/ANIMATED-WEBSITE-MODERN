@@ -12,8 +12,6 @@ import { IoLogoFirefox } from 'react-icons/io5';
 function HeaderNavigation({restart}) {
 
 
-  const [stateAnimation, setStateAnimation] = useState(false)
-
   let animationNavMenuCtx = gsap.context((self)=>{
     let navItemsLinks = gsap.utils.toArray(".headerNavigation-nav-contain-list-li"); 
 
@@ -128,11 +126,11 @@ function HeaderNavigation({restart}) {
             <AiOutlineClose className='headerNavigation-nav-btn-icon' ></AiOutlineClose>
           </button>
           <ul className="headerNavigation-nav-contain-list">
-            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/"}>Home</Link></li>
-            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/about"}>About</Link></li>
-            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/works"}>Works</Link></li>
-            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/service"}>Service</Link></li>
-            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/contact"}>Contact</Link></li>
+            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/ANIMATED-WEBSITE-MODERN/"}>Home</Link></li>
+            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/ANIMATED-WEBSITE-MODERN/about"}>About</Link></li>
+            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/ANIMATED-WEBSITE-MODERN/works"}>Works</Link></li>
+            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/ANIMATED-WEBSITE-MODERN/service"}>Service</Link></li>
+            <li className="headerNavigation-nav-contain-list-li"><Link className="headerNavigation-nav-contain-list-link" to={"/ANIMATED-WEBSITE-MODERN/contact"}>Contact</Link></li>
           </ul>
         </div>
       </nav>

@@ -50,7 +50,7 @@ function CreativeSupport() {
           <h4>Createive Support</h4>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
-        <img src="./assets/service-job-4.jpg" className="service-img" alt="" />
+        <img src="/ANIMATED-WEBSITE-MODERN/imgs/service-job-4.jpg" className="service-img" alt="" />
       </div>
       <div className="jobAdvert-right jobAdvert-section">
         <div className="sct-standar creative-right section-right-text">

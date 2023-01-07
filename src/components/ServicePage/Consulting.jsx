@@ -50,7 +50,7 @@ function Consulting() {
           <h4>Consulting</h4>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
-        <img src="./assets/service-job-3.jpg" className="service-img" alt="" />
+        <img src="/ANIMATED-WEBSITE-MODERN/imgs/service-job-3.jpg" className="service-img" alt="" />
       </div>
       <div className="jobAdvert-right consulting-right  jobAdvert-section">
         <div className="sct-standar consulting-right-txt section-right-text">

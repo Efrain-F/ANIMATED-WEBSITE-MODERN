@@ -58,13 +58,13 @@ function CareerHome() {
             <h3>Lorem ipsum Lorem ipsum.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis reprehenderit exercitationem aliquid provident delectus </p>
             <div className="carrerHome-sct-main-about">
-              <Link to={"/about"}>Go to About</Link>
+              <Link to={"/ANIMATED-WEBSITE-MODERN/about"}>Go to About</Link>
             </div>
           </div>
         </main>
 
         <div className="carrerHome-sct-cot carrerHome-sct-img">
-          <img src="/assets/homeImgs/career.jpg" alt="" />
+          <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/career.jpg" alt="" />
         </div>
 
       </section>

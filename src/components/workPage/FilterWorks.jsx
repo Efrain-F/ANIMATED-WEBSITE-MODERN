@@ -56,13 +56,13 @@ function FilterWorks({categ}) {
       </div>
       <ul className="filterWorks-opts">
         <li className={`filterWorks-line ${categ==undefined?"filterWorkLineFocus":""}`}>
-          <Link to="/works">All</Link>
+          <Link to="/ANIMATED-WEBSITE-MODERN/works">All</Link>
         </li>
         <li className={`filterWorks-line ${categ=="work1"?"filterWorkLineFocus":""}`}>
-          <Link to="/works/category/work1">Works 1</Link>
+          <Link to="/ANIMATED-WEBSITE-MODERN/works/category/work1">Works 1</Link>
         </li>
         <li className={`filterWorks-line ${categ=="work2"?"filterWorkLineFocus":""}`}>
-          <Link to="/works/category/work2">Works 2</Link>
+          <Link to="/ANIMATED-WEBSITE-MODERN/works/category/work2">Works 2</Link>
         </li>
       </ul>
     </section>

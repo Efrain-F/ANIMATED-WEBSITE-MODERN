@@ -3,11 +3,11 @@ function Slogan() {
     <section className="home-section home-slogan">
         <div className="slogan-container">
           <div className="home-slogan-imgs">
-            <img className="home-slogan-imgs-slog" src="./assets/slogan4.jpg"></img>
-            <img className="home-slogan-imgs-slog" src="./assets/slogan1.jpg"></img>
-            <img className="home-slogan-imgs-slog" src="./assets/slogan2.jpg"></img>
-            <img className="home-slogan-imgs-slog" src="./assets/slogan3.jpg"></img>
-            <img className="home-slogan-imgs-slog" src="./assets/slogan5.jpg"></img>
+            <img className="home-slogan-imgs-slog" src="/ANIMATED-WEBSITE-MODERN/imgs/slogan4.jpg"></img>
+            <img className="home-slogan-imgs-slog" src="/ANIMATED-WEBSITE-MODERN/imgs/slogan1.jpg"></img>
+            <img className="home-slogan-imgs-slog" src="/ANIMATED-WEBSITE-MODERN/imgs/slogan2.jpg"></img>
+            <img className="home-slogan-imgs-slog" src="/ANIMATED-WEBSITE-MODERN/imgs/slogan3.jpg"></img>
+            <img className="home-slogan-imgs-slog" src="/ANIMATED-WEBSITE-MODERN/imgs/slogan5.jpg"></img>
           </div>
         </div>
         <main className="home-slogan-main">

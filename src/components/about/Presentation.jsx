@@ -6,7 +6,6 @@ import { useLocation } from "react-router-dom";
 
 
 function Presentation() {
-  const location = useLocation()
 
   const stateTransition = useStatePageTransitionContext() 
   let transitionPresentCtx = gsap.context((self)=>{
@@ -41,7 +40,7 @@ function Presentation() {
           <h3>Lorem ipsum dolor sit amet</h3>
           <span>By Me</span>
         </section>
-        <img className="about-present-background" src="./assets/about.jpg"></img>
+        <img className="about-present-background" src="/ANIMATED-WEBSITE-MODERN/imgs/about.jpg"></img>
     </div>
   );
 }

@@ -35,7 +35,7 @@ function Presentation() {
           <h3>Lorem ipsum dolor sit amet</h3>
           <span>By Me</span>
         </section>
-        <img className="service-present-background" src="./assets/service.jpg"></img>
+        <img className="service-present-background" src="/ANIMATED-WEBSITE-MODERN/imgs/service.jpg"></img>
     </div>
   );
 }

@@ -50,7 +50,7 @@ function NewsHome() {
         <h3 className="nameSectionHomeMin newsHome-title">5. NEWS</h3>
         <div className="newsHome-grid">
           <div className="newsHome-grid-new">
-            <img src="/assets/homeImgs/new1.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/new1.jpg" alt="" />
             <div className="newsHome-grid-new-txt">
               <div>
                 <h3>Lorem ipsum, dolor sit</h3>
@@ -60,7 +60,7 @@ function NewsHome() {
             </div>
           </div>
           <div className="newsHome-grid-new">
-            <img src="/assets/homeImgs/new2.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/new2.jpg" alt="" />
             <div className="newsHome-grid-new-txt">
               <div>
                 <h3>Lorem ipsum, dolor sit</h3>
@@ -70,7 +70,7 @@ function NewsHome() {
             </div>
           </div>
           <div className="newsHome-grid-new">
-            <img src="/assets/homeImgs/new3.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/new3.jpg" alt="" />
             <div className="newsHome-grid-new-txt">
               <div>
                 <h3>Lorem ipsum, dolor sit</h3>
@@ -80,7 +80,7 @@ function NewsHome() {
             </div>
           </div>
           <div className="newsHome-grid-new">
-            <img src="/assets/homeImgs/new4.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/new4.jpg" alt="" />
             <div className="newsHome-grid-new-txt">
               <div>
                 <h3>Lorem ipsum, dolor sit</h3>
@@ -90,7 +90,7 @@ function NewsHome() {
             </div>
           </div>
           <div className="newsHome-grid-new">
-            <img src="/assets/homeImgs/new5.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/new5.jpg" alt="" />
             <div className="newsHome-grid-new-txt">
               <div>
                 <h3>Lorem ipsum, dolor sit</h3>

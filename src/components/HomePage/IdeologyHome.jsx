@@ -51,7 +51,7 @@ function IdeologyHome() {
     <div className="ideologyHome">
       <section className="ideologyHome-sct">
         <div className="ideologyHome-sct-img">
-          <img src="/assets/homeImgs/ideology.jpg" alt="" />
+          <img src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/ideology.jpg" alt="" />
         </div>
         <main className="ideologyHome-sct-main">
           <h5 className="nameSectionHomeMin">1. Ideology</h5>
@@ -59,7 +59,7 @@ function IdeologyHome() {
           <h3>Lorem ipsum.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis reprehenderit exercitationem aliquid provident delectus excepturi officiis eius iusto quidem sit rem veniam beatae reiciendis voluptatibus deleniti suscipit, commodi maiores.</p>
           <div className="ideologyHome-sct-main-about">
-            <Link to={"/about"}>Go to About</Link>
+            <Link to={"/ANIMATED-WEBSITE-MODERN/about"}>Go to About</Link>
           </div>
         </main>
       </section>

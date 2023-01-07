@@ -5,7 +5,7 @@ function WorkCard({work}) {
     <li className="workCard">
       <div className="workCard-img">
         <span className="workCard-img-effc">VIEW</span>
-        <img src={"/assets/works/"+work.img}></img>
+        <img src={"/ANIMATED-WEBSITE-MODERN/imgs/works/"+work.img}></img>
       </div>
       <div className="workCard-cont">
         <span>{work.date}</span>

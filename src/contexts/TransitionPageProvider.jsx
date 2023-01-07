@@ -15,8 +15,6 @@ export function TransitionPageProvider(props){
 
 
   const [stateTransition,setStateTransition] = useState(true)
-  // verdadero si esta en medio de la transicion
-  const [awaitTransition,setAwaitTransition] = useState(false)
 
   let ctxTransition = gsap.context((self)=>{
     self.add("show",(cal)=>{
@@ -68,11 +66,6 @@ export function TransitionPageProvider(props){
   },[])
 
   function showTransitionPage(cal){
-    if(awaitTransition){
-
-    }else{
-      
-    }
     ctxTransition.show(cal)
   }
   function hiddenTransitionPage(){

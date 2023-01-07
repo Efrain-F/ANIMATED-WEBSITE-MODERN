@@ -52,7 +52,7 @@ function CeoMessage() {
         </div>
         <div className="about-ceo-cont">
           <div className="about-ceo-photo">
-            <img src="./assets/ceoPhoto.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/ceoPhoto.jpg" alt="" />
           </div>
           <main className="about-ceo-message">
             <h2>Just Choose Kind</h2>

@@ -49,7 +49,7 @@ function JobAdvertising() {
           <h4>Job Advertising</h4>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
-        <img src="./assets/service-job-2.jpg" className="service-img" alt="" />
+        <img src="/ANIMATED-WEBSITE-MODERN/assets/service-job-2.jpg" className="service-img" alt="" />
       </div>
       <div className="jobAdvert-right jobAdvert-right-anim jobAdvert-section">
         <div className="sct-standar jobAdvert-right-text section-right-text">

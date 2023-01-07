@@ -40,7 +40,7 @@ function PresentationWork() {
           <h3>Lorem ipsum dolor sit amet</h3>
           <span>By Me</span>
         </section>
-        <img className="service-present-background" src="/assets/works.jpg"></img>
+        <img className="service-present-background" src="/ANIMATED-WEBSITE-MODERN/imgs/works.jpg"></img>
     </div>
   );
 }

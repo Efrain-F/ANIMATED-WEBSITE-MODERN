@@ -50,7 +50,7 @@ function ServiceHome() {
         <article className="serviceHome-services-sct">
           <div className="serviceHome-services-background">
             <div className="serviceHome-services-background-effc"></div>
-            <img src="/assets/service-job-2.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/service-job-2.jpg" alt="" />
           </div>
           <div className="serviceHome-services-txt">
             <h4 className="serviceHome-services-name">SERVICE DETAILS</h4>
@@ -64,7 +64,7 @@ function ServiceHome() {
         <article className="serviceHome-services-sct">
           <div className="serviceHome-services-background">
             <div className="serviceHome-services-background-effc"></div>
-            <img src="/assets/service-job-4.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/service-job-4.jpg" alt="" />
           </div>
           <div className="serviceHome-services-txt">
             <h4 className="serviceHome-services-name">SERVICE DETAILS</h4>
@@ -78,7 +78,7 @@ function ServiceHome() {
         <article className="serviceHome-services-sct">
           <div className="serviceHome-services-background">
             <div className="serviceHome-services-background-effc"></div>
-            <img src="/assets/service-job-3.jpg" alt="" />
+            <img src="/ANIMATED-WEBSITE-MODERN/imgs/service-job-3.jpg" alt="" />
           </div>
           <div className="serviceHome-services-txt">
             <h4 className="serviceHome-services-name">SERVICE DETAILS</h4>

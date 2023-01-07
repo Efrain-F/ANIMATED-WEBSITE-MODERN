@@ -120,14 +120,14 @@ function PresentationHome() {
           <span>KEY</span>
         </div>
         <div className="homePresent-div-imgs">
-          <img className="homePresent-div-imgs-img" src="/assets/homeImgs/presHome3.jpg" alt="" />
-          <img className="homePresent-div-imgs-img" src="/assets/homeImgs/presHome1.jpg" alt="" />
+          <img className="homePresent-div-imgs-img" src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/presHome3.jpg" alt="" />
+          <img className="homePresent-div-imgs-img" src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/presHome1.jpg" alt="" />
         </div>
       </div>
       <div className="homePresent-div homePresent-bottom">
         <div className="homePresent-div-imgs homePresent-div-imgs-d ">
-          <img className="homePresent-div-imgs-img-l" src="/assets/homeImgs/presHome2.jpg" alt="" />
-          <img className="homePresent-div-imgs-img-l" src="/assets/homeImgs/presHome5.jpg" alt="" />
+          <img className="homePresent-div-imgs-img-l" src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/presHome2.jpg" alt="" />
+          <img className="homePresent-div-imgs-img-l" src="/ANIMATED-WEBSITE-MODERN/imgs/homeImgs/presHome5.jpg" alt="" />
         </div>
         <div className="homePresent-bottom-head">
           <h3>Recruitment Advertising Agency.</h3>

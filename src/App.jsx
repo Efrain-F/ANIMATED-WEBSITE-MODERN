@@ -51,11 +51,11 @@ function App() {
 
   // rutas de navegacion
   const routes = [
-    {path:"/",name:"Home",Component:Home},
-    {path:"/about",name:"About",Component:About},
-    {path:"/service",name:"Service",Component:Service},
-    {path:"/works/*",name:"Works",Component:Works},
-    {path:"/contact",name:"Contact",Component:Contact},
+    {path:"/ANIMATED-WEBSITE-MODERN/",name:"Home",Component:Home},
+    {path:"/ANIMATED-WEBSITE-MODERN/about",name:"About",Component:About},
+    {path:"/ANIMATED-WEBSITE-MODERN/service",name:"Service",Component:Service},
+    {path:"/ANIMATED-WEBSITE-MODERN/works/*",name:"Works",Component:Works},
+    {path:"/ANIMATED-WEBSITE-MODERN/contact",name:"Contact",Component:Contact},
   ]
 
   return (
